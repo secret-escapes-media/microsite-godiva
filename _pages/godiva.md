@@ -2,6 +2,7 @@
 layout: default
 id: godiva
 title: Godiva
+permalink: /godiva/
 nav: true
 nav-order: 2
 intro: Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste repellendus molestias, nulla sint reiciendis cupiditate eius ea, ipsa magnam, nisi culpa explicabo! Eos, voluptatibus nulla! Recusandae harum tenetur laudantium nihil earum veniam quo, iusto cumque debitis quidem rem vel libero?
