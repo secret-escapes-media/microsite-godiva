@@ -1,12 +1,12 @@
 ---
 layout: competition
 id: competition
+permalink: /competition/
 nav: true
-nav-order: 5
-nav-title: Win
+nav-order: 3
 
 title: Compet&shy;ition
-long-title: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+long-title: Win an amazing prize to destination with five star hotel
 intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur aspernatur beatae tempora, voluptates ut recusandae ea exercitationem culpa mollitia quia similique. Perferendis cumque obcaecati ad pariatur. Quos iure sapiente amet beatae, officiis possimus minima expedita, ea ad. Doloribus et perspiciatis doloremque. Tenetur consequatur quam maiores odit, adipisci nostrum numquam quo mollitia eligendi! Debitis, culpa impedit, ex esse fugit enim quibusdam!
 enter-cta: Enter Now
 
