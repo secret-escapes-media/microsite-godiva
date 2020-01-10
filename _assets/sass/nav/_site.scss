@@ -2,8 +2,8 @@
 
 $site-nav-height:    56px;
 $site-nav-height-sm: 44px;
-$nav-width-bp:       640px;
-$nav-color:          $grey-dark;
+$nav-width-bp:       360px;
+$nav-color:          $white;
 
 
 // global site nav height
@@ -77,8 +77,8 @@ $nav-color:          $grey-dark;
   &__item {
     display: flex;
     flex: 1 0 auto;
-    border-right: 1px solid rgba($white,.15);
-    &:last-child { border-right: 0; }
+    // border-right: 1px solid rgba($white,.15);
+    // &:last-child { border-right: 0; }
   }
   &__link {
     display: flex;
@@ -92,11 +92,11 @@ $nav-color:          $grey-dark;
     font-size: 11px;
     letter-spacing: .2em;
     text-transform: uppercase;
-    color: $white;
+    color: $grey-dark;
     transition: background-color $transition-time ease;
     white-space: nowrap;
-    &.is-current      { background-color: rgba($nav-color,.66); }
-    .no-touch &:hover { background-color: rgba($nav-color,1); }
+    &.is-current      { background-color: $nav-color; }
+    .no-touch &:hover { background-color: rgba($nav-color,.75); }
     @include bp($nav-width-bp){
       padding-left: $s0;
       padding-right: $s0;

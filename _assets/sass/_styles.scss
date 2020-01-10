@@ -1,1 +1,15 @@
 // general styles for the project that wouldn't be a reuseable component
+
+.width--title { max-width: 560px; }
+
+.bg-img--border {
+  &:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 3px solid white;
+  }
+}

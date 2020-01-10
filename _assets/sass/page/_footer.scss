@@ -12,11 +12,13 @@
     background-color: $grey-darkest;
   }
 
-  // spacing for multiple logos in site footer
-  .logo {
-    margin: $s-2;
-    vertical-align: middle;
-    &--se { transform: translateY(6px); }
+  &__logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    > * { margin: $s-2; }
+    .logo--partner { transform: translateY(2px); }
   }
 
   // white background for footer. Transparent colours will appear as block colours

@@ -6,8 +6,8 @@ nav: true
 nav-order: 3
 
 title: Compet&shy;ition
-long-title: Win an amazing prize to destination with five star hotel
-intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur aspernatur beatae tempora, voluptates ut recusandae ea exercitationem culpa mollitia quia similique. Perferendis cumque obcaecati ad pariatur. Quos iure sapiente amet beatae, officiis possimus minima expedita, ea ad. Doloribus et perspiciatis doloremque. Tenetur consequatur quam maiores odit, adipisci nostrum numquam quo mollitia eligendi! Debitis, culpa impedit, ex esse fugit enim quibusdam!
+long-title: Win a delicious Brussels escape
+intro: Win a grand two-night getaway to Brussels, staying in the well-appointed, five-star Steigenberger Grandhotel. Located in the heart of the city, wake up for breakfast before strolling the magnificent boulevards of this stylish destination, unpicking the medieval old town and the boutiques and cultural curiosities that hide within. On your return, enjoy a sumptuous evening in the hotel’s esteemed restaurant, indulging in exceptional cooking. If that wasn’t sweet enough, you’ll also be treated to a hamper bursting with a choice selection of Godiva’s gorgeous chocolates. Enter now for a truly delicious getaway.
 enter-cta: Enter Now
 
 competition-form:
