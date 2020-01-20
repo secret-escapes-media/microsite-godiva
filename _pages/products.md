@@ -5,28 +5,63 @@ title: Products
 permalink: /products/
 nav: true
 nav-order: 2
-intro: Immerse yourself in a world of wonder with only the finest bites of chocolate, delicately designed, for your enjoyment. Make your world more wonderful with treats that promise moments of unmissable delight. From the handcrafted flavours of the Masterpiece selection to the unique treats that await across Godiva cafés across the country, discover a world of wonder and taste the extraordinary...
+intro: Immerse yourself in a world of wonder with the finest bites of chocolate, designed to make special moments even sweeter. Make your world more wonderful with treats that promise moments of unmissable delight. Treat yourself to the handcrafted flavours of the Masterpiece selection and discover a world of wonder...
 
 features:
 
   - id: masterpieces
     title: Masterpieces
-    description: Only settle for the best. The Godiva Masterpieces range is the signature selection of only the most indulgent Godiva offerings. From dark chocolate filled with a rich ganache to chocolate hazelnut oysters, each is individually wrapped for those moments when you need something a little special.
-
-  - id: godiva-cafes
-    title: Godiva cafés
-    description: Wonder awaits at Godiva cafés. Dotted across the country, head inside for your personal slice of deliciousness. Ready for something different? Don’t miss the Croiffle™ – you’ve probably heard of the cronut, well imagine that, but better. A delicate butter croissant is filled with silky Godiva chocolate and heated in a waffle iron to make one irresistible treat only available in store.
+    description: Treat yourself to the best. The Godiva Masterpieces range is the signature selection of only the most indulgent Godiva offerings. From dark chocolate filled with a rich ganache to chocolate hazelnut oysters, each is individually wrapped for those moments when you need something a little special.
 
   - id: heritage
     title: Heritage
     description: Nothing is more synonymous with fine chocolate than Belgium, and it’s there that the Godiva story started. Since 1926, Godiva master chocolatiers have been crafting deliciously rich, smooth chocolate using only the finest ingredients, set to delight and indulge the senses.
+
+
+products:
+
+  - id: product-id
+    title: Product Name
+    description: short description about the product
+    price: 999
+    link: "#product-link"
+
+  - id: product-id
+    title: Product Name
+    description: short description about the product
+    price: 999
+    link: "#product-link"
+
+  - id: product-id
+    title: Product Name
+    description: short description about the product
+    price: 999
+    link: "#product-link"
+
+  - id: product-id
+    title: Product Name
+    description: short description about the product
+    price: 999
+    link: "#product-link"
+
+  - id: product-id
+    title: Product Name
+    description: short description about the product
+    price: 999
+    link: "#product-link"
+
+  - id: product-id
+    title: Product Name
+    description: short description about the product
+    price: 999
+    link: "#product-link"
 ---
 
 <div class="container vpad--xxl">
   <div class="width width--xl text--center">
     <p class="text--xxl">{{page.intro}}</p>
     <div class="space--sm"></div>
-    <a href="{{site.client.link}}" class="btn btn--lg btn--red">Shop Godiva Now</a>
+    <a href="{{site.client.link}}" class="btn btn--lg btn--red js-open-modal" data-open-modal="shops">Shop Godiva Now</a>
   </div>
   <div class="space--xxxl">
     {% for item in page.features %}
@@ -38,15 +73,43 @@ features:
         </div>
         <div class="bob__text">
           <h2 class="title title--sm">{{item.title}}</h2>
-          <p class="text--xl">{{item.description | truncatewords: 35}}</p>
+          <p class="text--xl">{{item.description}}</p>
           <div class="space--sm"></div>
           <a href="{{site.client.link}}" class="btn btn--sm btn--outline btn--outline-red">Find out more</a>
         </div>
       </div>
     {% endfor %}
   </div>
-  <div class="text--center">
+</div>
+
+<div class="bg--light">
+  <div class="container vpad--xxl">
+    <div class="text--center">
+      <h2 class="title title--md">latest products</h2>
+    </div>
+    <div class="space--lg"></div>
+    <div class="width width--xl">
+      <div class="row row--md-6-6 row--xl-4-4-4 row--gutters-lg">
+        {% for item in page.products %}
+          <div class="col text--center">
+            <div class="bg-img bg-img--1-1" style="background-image: url('{{site.img}}/img.jpg');">
+              <a href="{{item.link}}" class="bg-img__link"></a>
+            </div>
+            <div class="vpad--xs text--normal">
+              <h3 class="text--xxxl">{{item.title}}</h3>
+              <div class="space--xxs"></div>
+              <div class="text--sm">{{item.description}}</div>
+              <div class="text--lg text--red">£{{item.price}}</div>
+              <div class="space--xs"></div>
+              <a href="{{item.link}}" class="btn btn--outline btn--outline-red btn--sm">Shop Now</a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
     <div class="space--xxl"></div>
-    <a href="{{site.client.link}}" class="btn btn--lg btn--red">See all products</a>
+    <div class="text--center">
+      <a href="{{site.client.link}}" class="btn btn--lg btn--red js-open-modal" data-open-modal="shops">Shop Godiva Now</a>
+    </div>
   </div>
 </div>

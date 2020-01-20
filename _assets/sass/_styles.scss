@@ -13,3 +13,53 @@
     border: 3px solid white;
   }
 }
+
+.shops {
+  padding-top: $s0;
+  .shop {
+    display: inline-block;
+    padding: $s0 $s3;
+    margin: $s-4 $s-6;
+    font-size: $s1;
+    font-weight: 600;
+    background-color: $grey-lightest;
+    border-radius: 999rem;
+    @include transition;
+    &:hover { color: $white }
+    &--sainsburys {
+      color: #f06c00;
+      background-color: #feede0;
+      &:hover { background-color: #f06c00; }
+    }
+    &--coop {
+      color: #00b1e7;
+      background-color: #e0f6fc;
+      &:hover { background-color: #00b1e7; }
+    }
+    &--tesco {
+      color: #00539f;
+      background-color: #e0eaf3;
+      &:hover { background-color: #00539f; }
+    }
+    &--asda {
+      color: #68a51c;
+      background-color: #edf4e3;
+      &:hover { background-color: #68a51c; }
+    }
+    &--morrisons {
+      color: #064e37;
+      background-color: #e0e9e6;
+      &:hover { background-color: #064e37; }
+    }
+    &--ocado {
+      color: #929b00;
+      background-color: #f2f3e0;
+      &:hover { background-color: #929b00; }
+    }
+    &--whsmiths {
+      color: #003087;
+      background-color: #e0e6f0;
+      &:hover { background-color: #003087; }
+    }
+  }
+}

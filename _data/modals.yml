@@ -26,13 +26,19 @@
     - id: all
   youtube-id: Os6R4G4dimY
 
-- id: another
+- id: shops
   pages:
     - id: all
   content: >
-    <div class="title title--lg">Another Modal</div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium maxime est soluta expedita inventore corrupti ipsam illo, eligendi sit id accusamus iure dicta qui suscipit culpa fugiat possimus consequatur totam iste perspiciatis delectus nesciunt deleniti, cumque nemo labore? Nesciunt explicabo velit iure, et voluptatibus beatae vitae laboriosam. Magni suscipit, facere eum culpa ab ullam, accusantium tempora, ut similique vero odit placeat sit tenetur quas, consectetur eaque. Praesentium distinctio, quae mollitia amet! Libero debitis minima cumque, eaque ipsam rerum porro, quo.</p>
-    <p>Quos non sit omnis cum facilis, laborum culpa natus totam quae animi magnam minima aspernatur, harum dolorem nostrum maxime distinctio! Facilis hic exercitationem, blanditiis, saepe iusto minus libero unde amet molestiae, nemo id! Dolores aperiam commodi dolore neque ipsum rerum error, eum. Ratione rem maxime incidunt quam nostrum, voluptas alias soluta accusamus magni quibusdam, tempore numquam! Unde nemo a optio dolore sunt ex repellat molestiae quisquam quas. Fugiat, eligendi ullam. Exercitationem sapiente neque debitis omnis commodi cumque illo magni quam.</p>
+    <div class="content-spacing width width--lg text--center">
+      <p class="title title--xxxs">Please choose a shop</p>
+      <div class="shops">
+        {% for shop in site.client.shops %}
+          <a class="shop shop--{{shop.id}}" href="{{shop.link}}">{{shop.name}}</a>
+        {% endfor %}
+      </div>
+    </div>
+
 
 - id: image-credits
   image: img.jpg

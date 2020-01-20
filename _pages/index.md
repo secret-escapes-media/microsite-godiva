@@ -19,7 +19,7 @@ banner:
     <p class="text--xxl">{{site.description}}</p>
     <p class="text--xxl">Choose your sumptuous escape below and we’ll sweeten your break with Godiva. Each day of your stay, you’ll find Godiva chocolates waiting for you in your room. Indulge in the handcrafted flavours of the Masterpiece selection for a truly delicious escape. </p>
     <div class="space--sm"></div>
-    <a href="{{site.client.link}}" class="btn btn--outline btn--outline-red">Shop Godiva Now</a>
+    <a href="{{site.client.link}}" class="btn btn--outline btn--outline-red js-open-modal" data-open-modal="shops">Shop Godiva Now</a>
   </div>
 </div>
 
