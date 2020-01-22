@@ -14,8 +14,9 @@ features:
     description: Treat yourself to the best. The Godiva Masterpieces range is the signature selection of only the most indulgent Godiva offerings. From dark chocolate filled with a rich ganache to chocolate hazelnut oysters, each is individually wrapped for those moments when you need something a little special.
 
   - id: heritage
-    title: Heritage
+    title: The Godiva Story
     description: Nothing is more synonymous with fine chocolate than Belgium, and it’s there that the Godiva story started. Since 1926, Godiva master chocolatiers have been crafting deliciously rich, smooth chocolate using only the finest ingredients, set to delight and indulge the senses.
+    link: https://www.godivachocolates.co.uk/history-of-godiva
 
 
 products:
@@ -68,14 +69,14 @@ products:
       <div class="bob{% cycle '', ' bob--swap' %}">
         <div class="bob__img">
           <div class="bg-img bg-img--4-3 bg-img--border" style="background-image: url('{{site.img}}/content/{{page.id}}/{{item.id}}.jpg');">
-            <a href="{{site.client.link}}" class="bg-img__link"></a>
+            <a href="{% if item.link %}{{item.link}}{% else condition %}{{site.client.link}}{% endif %}" class="bg-img__link"></a>
           </div>
         </div>
         <div class="bob__text">
           <h2 class="title title--sm">{{item.title}}</h2>
           <p class="text--xl">{{item.description}}</p>
           <div class="space--sm"></div>
-          <a href="{{site.client.link}}" class="btn btn--sm btn--outline btn--outline-red">Find out more</a>
+          <a href="{% if item.link %}{{item.link}}{% else condition %}{{site.client.link}}{% endif %}" class="btn btn--sm btn--outline btn--outline-red">Find out more</a>
         </div>
       </div>
     {% endfor %}

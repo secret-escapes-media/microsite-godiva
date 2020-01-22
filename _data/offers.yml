@@ -1,49 +1,59 @@
-- title: Spectacular Oslo & Bergen break with optional fjord tour
-  id: spectacular-oslo-bergen-break-with-optional-fjord-tour
-  location: Scandic St. Olavs plass & Clarion Hotel Admiral, Norway
-  description: A fantastic four-night trip to Norway's Oslo and Bergen, with one of the world's most scenic train journeys between the two cities - including flights and an optional fjord tour
-  price: 459
-  price-description: per person for 4 nights
-  saved: 37
-  expires: 2020/04/14
-  link: https://www.secretescapes.com/spectacular-oslo-and-bergen-break-with-optional-fjord-tour-scandic-st-olavs-plass-and-clarion-hotel-admiral-norway-2/sale?gce_urg=0&utm_source=SE&utm_campaign=7_Norway_201703&utm_medium=Hub
-
-- title: Farris Bad
-  id: farris-bad
-  location: Larvik, Norway
-  description: Upscale beachfront stay at the first Nordic balneological health resort, with a supersized spa
-  price: 214
+- title: Ardencote
+  location: Claverdon, Warwickshire
+  description: AA Rosette dining and a superb spa in Warwickshire's countryside
+  price: 91
   price-description: per room per night
-  saved: 33
-  expires: 2020/04/20
-  link: https://www.secretescapes.com/farris-bad-larvik-norway/sale?gce_urg=1&gce_scp=0&utm_source=SE&utm_medium=Hub&utm_campaign=12_Norway_201703
+  saved: 30
+  expires: 2020/02/04
+  image: https://secretescapes-web.imgix.net/sales/94424/8b9400f7_57ae_407e_be57_11d69388dd2b.jpg?auto=format,compress
+  link: https://www.secretescapes.com/ardencote-claverdon-warwickshire/sale
 
-- title: First Hotel Marin
-  id: first-hotel-marin
-  location: Bergen, Norway
-  description: A unique stay in the centre of picturesque Bergen, just a stone's throw from the harbour
-  price: 48
+- title: Polurrian on the Lizard
+  location: Mullion, Cornwall
+  description: Colourful Cornish retreat with coastal views
+  price: 101
   price-description: per room per night
-  saved: 43
-  expires: 2020/04/20
-  link: https://www.secretescapes.com/first-hotel-marin-bergen-norway/sale?gce_scp=1&utm_source=SE&utm_medium=Hub&utm_campaign=13_Norway_201704
+  saved: 42
+  expires: 2020/01/28
+  image: https://secretescapes-web.imgix.net/hotels/117/dc0dc9f4_03f9_458c_bf2f_dbcbb0910a0f.jpg?auto=format,compress
+  link: https://www.secretescapes.com/polurrian-on-the-lizard-mullion-cornwall/sale-hotel
 
-- title: Magic Hotel
-  id: magic-hotel
-  location: Bergen, Norway
-  description: A brand-new hip hotel in the centre of Bergen, designed by a top New York designer
-  price: 73
+- title: Lewtrenchard Manor
+  location: Okehampton, Devon
+  description: 17th-century manor house near Dartmoor National Park
+  price: 152
   price-description: per room per night
-  saved: 55
-  expires: 2020/04/20
-  link: https://www.secretescapes.com/magic-hotel-bergen-norway/sale?gce_hpf=1&utm_source=SE&utm_medium=Hub&utm_campaign=14_Norway_201704
+  saved: 48
+  expires: 2020/01/28
+  image: https://secretescapes-web.imgix.net/hotels/110/2a4d2246_c8bf_45d4_8fbd_54ccbe5b5fad.jpg?auto=format,compress
+  link: https://www.secretescapes.com/lewtrenchard-manor-okehampton-devon/sale-hotel
 
-- title: Sola Strand Hotel
-  id: sola-strand-hotel
-  location: Sola, Norway
-  description: Discover one of the world's sixth best beaches on Norway's gorgeous coast, with breakfast and more
-  price: 79
+- title: Barnett Hill Hotel
+  location: Guildford, Surrey
+  description: Elegant country house in the Surrey Hills
+  price: 142
   price-description: per room per night
-  saved: 47
-  expires: 2020/04/20
-  link: https://www.secretescapes.com/sola-strand-hotel-sola-norway/sale?gce_hpf=1&utm_source=SE&utm_medium=Hub&utm_campaign=15_Norway_201704
+  saved: 42
+  expires: 2020/02/04
+  image: https://secretescapes-web.imgix.net/hotels/58/161fed12_fda9_41c7_ae5d_7963d2a490f9.jpg?auto=format,compress
+  link: https://www.secretescapes.com/barnett-hill-hotel-surrey/sale-hotel
+
+- title: Llangoed Hall
+  location: Wye Valley, Wales
+  description: R&R at an award-winning Welsh retreat
+  price: 101
+  price-description: per room per night
+  saved: 53
+  expires: 2020/01/28
+  image: https://secretescapes-web.imgix.net/sales/20973/c6537d7b_2307_443b_bb6a_556694d10c4e.jpg?auto=format,compress
+  link: https://www.secretescapes.com/llangoed-hall-wye-valley-wales/sale
+
+- title: King's Head Inn
+  location: Gower Peninsula, Wales
+  description: Historic, Welsh inn by the beach on the Gower Peninsula
+  price: 71
+  price-description: per room per night
+  saved: 50
+  expires: 2020/01/28
+  image: https://secretescapes-web.imgix.net/sales/43619/61674174_8c29_43e3_ab46_a4773143bbaf.jpg?auto=format,compress
+  link: https://www.secretescapes.com/kings-head-inn-gower-peninsula-wales/sale
