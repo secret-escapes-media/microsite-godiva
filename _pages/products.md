@@ -21,41 +21,29 @@ features:
 
 products:
 
-  - id: product-id
-    title: Product Name
-    description: short description about the product
-    price: 999
-    link: "#product-link"
+  - id: caramel-lion
+    title: Caramel Lion with Belgian Milk Chocolate
+    link: https://www.sainsburys.co.uk/shop/gb/groceries/Godiva-/godiva-milk-chocolate-bar--caramel-lion-83g
 
-  - id: product-id
-    title: Product Name
-    description: short description about the product
-    price: 999
-    link: "#product-link"
+  - id: ganache-heart
+    title: Ganache Heart with Belgian Dark Chocolate
+    link: https://www.ocado.com/products/godiva-masterpieces-dark-chocolate-ganache-heart-bar-418395011
 
-  - id: product-id
-    title: Product Name
-    description: short description about the product
-    price: 999
-    link: "#product-link"
+  - id: crispy-hazelnut
+    title: Crispy Hazelnut Chocolate Domes
+    link: https://www.ocado.com/products/godiva-domes-milk-chocolate-hazelnut-447212011
 
-  - id: product-id
-    title: Product Name
-    description: short description about the product
-    price: 999
-    link: "#product-link"
+  - id: milk-caramel-lion
+    title: Milk Chocolate Caramel Lion of Belgium
+    link: https://www.ocado.com/products/godiva-masterpieces-milk-chocolate-caramel-lion-bar-418396011
 
-  - id: product-id
-    title: Product Name
-    description: short description about the product
-    price: 999
-    link: "#product-link"
+  - id: raspberry-crunch
+    title: Raspberry Crunch Chocolate Domes
+    link: https://www.ocado.com/products/godiva-domes-dark-chocolate-raspberry-447210011
 
-  - id: product-id
-    title: Product Name
-    description: short description about the product
-    price: 999
-    link: "#product-link"
+  - id: caramel-lion-with-belgian-milk-chocolate
+    title: Caramel Lion with Belgian Milk Chocolate
+    link: https://www.sainsburys.co.uk/shop/gb/groceries/Godiva-/godiva-masterpieces-caramel-lion-with-belgian-milk-chocolate-193g
 ---
 
 <div class="container vpad--xxl">
@@ -69,14 +57,22 @@ products:
       <div class="bob{% cycle '', ' bob--swap' %}">
         <div class="bob__img">
           <div class="bg-img bg-img--4-3 bg-img--border" style="background-image: url('{{site.img}}/content/{{page.id}}/{{item.id}}.jpg');">
-            <a href="{% if item.link %}{{item.link}}{% else condition %}{{site.client.link}}{% endif %}" class="bg-img__link"></a>
+            {% if item.id == 'masterpieces' %}
+              <a href="{% if item.link %}{{item.link}}{% else condition %}{{site.client.link}}{% endif %}" class="bg-img__link js-open-modal" data-open-modal="shops"></a>
+            {% else %}
+              <a href="{% if item.link %}{{item.link}}{% else condition %}{{site.client.link}}{% endif %}" class="bg-img__link"></a>
+            {% endif %}
           </div>
         </div>
         <div class="bob__text">
           <h2 class="title title--sm">{{item.title}}</h2>
           <p class="text--xl">{{item.description}}</p>
           <div class="space--sm"></div>
-          <a href="{% if item.link %}{{item.link}}{% else condition %}{{site.client.link}}{% endif %}" class="btn btn--sm btn--outline btn--outline-red">Find out more</a>
+          {% if item.id == 'masterpieces' %}
+            <a href="{% if item.link %}{{item.link}}{% else condition %}{{site.client.link}}{% endif %}" class="btn btn--sm btn--outline btn--outline-red js-open-modal" data-open-modal="shops">Shop Now</a>
+          {% else %}
+            <a href="{% if item.link %}{{item.link}}{% else condition %}{{site.client.link}}{% endif %}" class="btn btn--sm btn--outline btn--outline-red">Find out more</a>
+          {% endif %}
         </div>
       </div>
     {% endfor %}
@@ -93,14 +89,11 @@ products:
       <div class="row row--md-6-6 row--xl-4-4-4 row--gutters-lg">
         {% for item in page.products %}
           <div class="col text--center">
-            <div class="bg-img bg-img--1-1" style="background-image: url('{{site.img}}/img.jpg');">
+            <div class="bg-img bg-img--1-1" style="background-image: url('{{site.img}}/content/{{page.id}}/{{item.id}}.jpg');">
               <a href="{{item.link}}" class="bg-img__link"></a>
             </div>
             <div class="vpad--xs text--normal">
-              <h3 class="text--xxxl">{{item.title}}</h3>
-              <div class="space--xxs"></div>
-              <div class="text--sm">{{item.description}}</div>
-              <div class="text--lg text--red">£{{item.price}}</div>
+              <h3 class="text--xxl">{{item.title}}</h3>
               <div class="space--xs"></div>
               <a href="{{item.link}}" class="btn btn--outline btn--outline-red btn--sm">Shop Now</a>
             </div>
