@@ -6,11 +6,18 @@
   &:after {
     content: '';
     position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-    border: 3px solid white;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 2px solid white;
+    @include bp($md){
+      top: 10px;
+      left: 10px;
+      right: 10px;
+      bottom: 10px;
+      border-width: 3px;
+    }
   }
 }
 
@@ -31,11 +38,6 @@
       background-color: #feede0;
       &:hover { background-color: #f06c00; }
     }
-    &--coop {
-      color: #00b1e7;
-      background-color: #e0f6fc;
-      &:hover { background-color: #00b1e7; }
-    }
     &--tesco {
       color: #00539f;
       background-color: #e0eaf3;
@@ -55,11 +57,6 @@
       color: #929b00;
       background-color: #f2f3e0;
       &:hover { background-color: #929b00; }
-    }
-    &--whsmiths {
-      color: #003087;
-      background-color: #e0e6f0;
-      &:hover { background-color: #003087; }
     }
   }
 }

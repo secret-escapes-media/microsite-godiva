@@ -64,6 +64,12 @@ function buildSass() {
   }));
 }
 
+// build for font files
+function buildFonts() {
+  return gulp.src('./_assets/font/**/*.*')
+  .pipe(gulp.dest('./_site/_assets/font/'));
+}
+
 // build for image files
 function buildImages() {
   return gulp.src('./_assets/img/**/*.*')
@@ -89,12 +95,12 @@ function buildJsMain(cb) {
     './_assets/js/_components/standard.js',
     './_assets/js/_components/offer-countdown.js',
     './_assets/js/_components/modal.js',
-    './_assets/js/_components/modal-nav.js',
+    // './_assets/js/_components/modal-nav.js',
     // './_assets/js/_components/sticky-nav.js',
     './_assets/js/_components/form/functions.js',
     './_assets/js/_components/form/validation.js',
     './_assets/js/_components/competition.js',
-    './_assets/js/_components/simple-form.js',
+    // './_assets/js/_components/simple-form.js',
 
     // custom js for project
     './_assets/js/main.js',
@@ -210,6 +216,7 @@ var build = gulp.series(
   gulp.parallel(
     buildJekyll,
     buildSass,
+    buildFonts,
     buildImages,
     buildJsMain,
     buildJs

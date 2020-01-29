@@ -6,7 +6,7 @@
   font-family: $font-title-01;
   text-transform: uppercase;
   font-weight: 400;
-  letter-spacing: .25rem;
+  letter-spacing: .15rem;
   line-height: 1.2;
 
   &--xxxl   { font-size: $s8; }
@@ -19,6 +19,7 @@
   &--xxs    { font-size: $s1; }
   &--xxxs   { font-size: $s0; }
   @include bp($lg){
+    letter-spacing: .25rem;
     &--xxxl   { font-size: $s9; }
     &--xxl    { font-size: $s8; }
     &--xl     { font-size: $s7; }
@@ -28,6 +29,14 @@
     &--xs     { font-size: $s3; }
     &--xxs    { font-size: $s2; }
     &--xxxs   { font-size: $s1; }
+  }
+
+  &--competition {
+    font-size: $s5;
+    @include bp($md){ font-size: $s6; }
+    @include bp($lg){ font-size: $s7; }
+    @include bp($xl){ font-size: $s8; }
+    @include bp($xxl){ font-size: $s9; }
   }
 
 }
@@ -80,14 +89,25 @@
 
 
 .banner-title {
-
   // custom banner headline
   font-family: $font-title-01;
   text-transform: uppercase;
   font-size: $s5;
   font-weight: 400;
-  letter-spacing: 1rem;
-  @include bp($md){ font-size: $s7; }
-  @include bp($xl){ font-size: $s10; }
-
+  letter-spacing: .33rem;
+  @include bp($sm){
+    font-size: $s7;
+    letter-spacing: .4rem;
+  }
+  @include bp($md){
+    font-size: $s8;
+    letter-spacing: .5rem;
+  }
+  @include bp($lg){
+    font-size: $s9;
+    letter-spacing: 1rem;
+  }
+  @include bp($xl){
+    font-size: $s10;
+  }
 }

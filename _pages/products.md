@@ -60,7 +60,7 @@ products:
             {% if item.id == 'masterpieces' %}
               <a href="{% if item.link %}{{item.link}}{% else condition %}{{site.client.link}}{% endif %}" class="bg-img__link js-open-modal" data-open-modal="shops"></a>
             {% else %}
-              <a href="{% if item.link %}{{item.link}}{% else condition %}{{site.client.link}}{% endif %}" class="bg-img__link"></a>
+              <a id="track-{{page.id}}-{{item.id}}-img" href="{% if item.link %}{{item.link}}{% else condition %}{{site.client.link}}{% endif %}" class="bg-img__link"></a>
             {% endif %}
           </div>
         </div>
@@ -71,7 +71,7 @@ products:
           {% if item.id == 'masterpieces' %}
             <a href="{% if item.link %}{{item.link}}{% else condition %}{{site.client.link}}{% endif %}" class="btn btn--sm btn--outline btn--outline-red js-open-modal" data-open-modal="shops">Shop Now</a>
           {% else %}
-            <a href="{% if item.link %}{{item.link}}{% else condition %}{{site.client.link}}{% endif %}" class="btn btn--sm btn--outline btn--outline-red">Find out more</a>
+            <a id="track-{{page.id}}-{{item.id}}-btn" href="{% if item.link %}{{item.link}}{% else condition %}{{site.client.link}}{% endif %}" class="btn btn--sm btn--outline btn--outline-red">Find out more</a>
           {% endif %}
         </div>
       </div>
@@ -90,12 +90,12 @@ products:
         {% for item in page.products %}
           <div class="col text--center">
             <div class="bg-img bg-img--1-1" style="background-image: url('{{site.img}}/content/{{page.id}}/{{item.id}}.jpg');">
-              <a href="{{item.link}}" class="bg-img__link"></a>
+              <a id="track-{{page.id}}-product-{{item.id}}-img" href="{{item.link}}" class="bg-img__link"></a>
             </div>
             <div class="vpad--xs text--normal">
               <h3 class="text--xxl">{{item.title}}</h3>
               <div class="space--xs"></div>
-              <a href="{{item.link}}" class="btn btn--outline btn--outline-red btn--sm">Shop Now</a>
+              <a id="track-{{page.id}}-product-{{item.id}}-btn" href="{{item.link}}" class="btn btn--outline btn--outline-red btn--sm">Shop Now</a>
             </div>
           </div>
         {% endfor %}

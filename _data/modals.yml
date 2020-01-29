@@ -23,12 +23,13 @@
 - id: shops
   pages:
     - id: products
+    - id: offers
   content: >
-    <div class="content-spacing width width--lg text--center">
+    <div class="content-spacing width width--md text--center">
       <p class="title title--xxxs">Please choose a shop</p>
       <div class="shops">
         {% for shop in site.client.shops %}
-          <a class="shop shop--{{shop.id}}" href="{{shop.link}}">{{shop.name}}</a>
+          <a id="track-{{page.id}}-shop-modal-{{shop.id}}" class="shop shop--{{shop.id}}" href="{{shop.link}}">{{shop.name}}</a>
         {% endfor %}
       </div>
     </div>
@@ -42,7 +43,7 @@
   pages:
     - id: competition
   content: >
-    <div class="content-spacing">
+    <div class="content-spacing width width--xl">
       <h3 class="core-title core-title--md">Competition terms & conditions</h3>
       <div class="space--sm"></div>
       <h4 class="core-title core-title--xs">Promoter and Participants</h4>
