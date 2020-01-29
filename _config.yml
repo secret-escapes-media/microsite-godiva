@@ -7,9 +7,6 @@ client:
     - id: asda
       name: Asda
       link: https://groceries.asda.com/search/godiva
-    - id: coop
-      name: Co-op
-      link: https://www.coop.co.uk/
     - id: morrisons
       name: Morrisons
       link: https://groceries.morrisons.com/search?entry=Godiva
@@ -22,9 +19,7 @@ client:
     - id: tesco
       name: Tesco
       link: https://www.tesco.com/groceries/en-GB/search?query=Godiva
-    - id: whsmiths
-      name: WHSmith Stores
-      link: https://www.whsmith.co.uk/
+
 core-se-link: https://www.secretescapes.com/current-sales
 description: >
   Discover a collection of hotels for the perfect British getaway. Each has been handpicked for their uncompromising style and luxury, where country halls offer indulgent spa experiences and classic stately homes feature gorgeous contemporary flair.

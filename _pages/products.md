@@ -5,13 +5,13 @@ title: Products
 permalink: /products/
 nav: true
 nav-order: 2
-intro: Immerse yourself in a world of wonder with the finest bites of chocolate, designed to make special moments even sweeter. Make your world more wonderful with treats that promise moments of unmissable delight. Treat yourself to the handcrafted flavours of the Masterpiece selection and discover a world of wonder...
+intro: Immerse yourself in a world of wonder with the finest bites of chocolate, designed to make special moments even sweeter. Make your world more wonderful with treats that promise moments of unmissable delight. Treat yourself to the handcrafted flavours of the Masterpieces Collection and discover a world of wonder...
 
 features:
 
   - id: masterpieces
     title: Masterpieces
-    description: Treat yourself to the best. The Godiva Masterpieces range is the signature selection of only the most indulgent Godiva offerings. From dark chocolate filled with a rich ganache to chocolate hazelnut oysters, each is individually wrapped for those moments when you need something a little special.
+    description: Treat yourself to the best. The Godiva Masterpieces Collection is the signature selection of only the most indulgent Godiva offerings. From dark chocolate filled with a rich ganache to chocolate hazelnut oysters, each is individually wrapped for those moments when you need something a little special.
 
   - id: heritage
     title: The Godiva Story
@@ -23,7 +23,7 @@ products:
 
   - id: caramel-lion
     title: Caramel Lion with Belgian Milk Chocolate
-    link: https://www.sainsburys.co.uk/shop/gb/groceries/Godiva-/godiva-milk-chocolate-bar--caramel-lion-83g
+    link: https://www.ocado.com/products/godiva-masterpieces-milk-chocolate-caramel-lion-bar-418397011
 
   - id: ganache-heart
     title: Ganache Heart with Belgian Dark Chocolate
@@ -43,7 +43,7 @@ products:
 
   - id: caramel-lion-with-belgian-milk-chocolate
     title: Caramel Lion with Belgian Milk Chocolate
-    link: https://www.sainsburys.co.uk/shop/gb/groceries/Godiva-/godiva-masterpieces-caramel-lion-with-belgian-milk-chocolate-193g
+    link: https://www.ocado.com/products/godiva-masterpieces-milk-chocolate-caramel-lion-assortment-418392011
 ---
 
 <div class="container vpad--xxl">
