@@ -23,6 +23,9 @@
   &--gold { background-color: $g-gold;
     &:hover { background-color: darken($g-gold, 10); }
   }
+  &--blue { background-color: $external-blue;
+    &:hover { background-color: darken($external-blue, 10); }
+  }
   &--outline {
     color: inherit;
     &:before {

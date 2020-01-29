@@ -148,14 +148,17 @@ $offer-max-width: 600px;
   }
 
   // dark offer card styles
-   &#{&}--dark &__content {
-     border-left: 0;
-     border-right: 0;
-     border-bottom: 0;
-     background-color: lighten($grey-darkest,4);
-   }
-   &#{&}--dark &__separator           { background-color: $grey-dark; }
-   &#{&}--dark &__location            { color: $grey-lighter;}
-   &#{&}--dark &__content .core-title { color: $white;}
+  &#{&}--dark &__content {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    background-color: lighten($grey-darkest,4);
+  }
+  &#{&}--dark &__separator           { background-color: $grey-dark; }
+  &#{&}--dark &__location            { color: $grey-lighter;}
+  &#{&}--dark &__content .core-title { color: $white;}
 
+  &#{&}--external &__location:before {
+    background-image: url("../img/icons/map-pin-blue.svg");
+  }
 }

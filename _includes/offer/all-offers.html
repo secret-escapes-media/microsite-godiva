@@ -2,9 +2,13 @@
 
 <div class="container vpad--xxl">
   <div class="row row--xl-6-6 row--gutters-lg">
-    {% for offer in offers-by-price %}
+    {% for offer in offers-by-type %}
       <div class="col">
-        {% include offer/offer.html %}
+        {% if offer.type == 'se' %}
+          {% include offer/offer.html %}
+        {% else %}
+          {% include offer/offer-external.html %}
+        {% endif %}
       </div>
     {% endfor %}
   </div>

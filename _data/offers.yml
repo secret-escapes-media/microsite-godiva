@@ -1,59 +1,63 @@
-- title: Ardencote
-  location: Claverdon, Warwickshire
-  description: AA Rosette dining and a superb spa in Warwickshire's countryside
-  price: 91
-  price-description: per room per night
-  saved: 30
-  expires: 2020/02/04
-  image: https://secretescapes-web.imgix.net/sales/94424/8b9400f7_57ae_407e_be57_11d69388dd2b.jpg?auto=format,compress
-  link: https://www.secretescapes.com/ardencote-claverdon-warwickshire/sale
+################################################################################
+  # Secret Escapes offers
+################################################################################
 
-- title: Polurrian on the Lizard
-  location: Mullion, Cornwall
-  description: Colourful Cornish retreat with coastal views
-  price: 101
+- type: se
+  title: The Bird
+  location: Bath, Somerset
+  description: Award-winning Bath stay in the historic centre
+  price: 99
   price-description: per room per night
-  saved: 42
-  expires: 2020/01/28
-  image: https://secretescapes-web.imgix.net/hotels/117/dc0dc9f4_03f9_458c_bf2f_dbcbb0910a0f.jpg?auto=format,compress
-  link: https://www.secretescapes.com/polurrian-on-the-lizard-mullion-cornwall/sale-hotel
+  saved: 44
+  expires: 2020/02/11
+  image: https://secretescapes-web.imgix.net/sales/81320/03f77314_70cb_4558_b584_19ac3743634f.jpg?auto=format,compress
+  link: https://www.secretescapes.com/the-bird-bath-somerset/sale
 
-- title: Lewtrenchard Manor
-  location: Okehampton, Devon
-  description: 17th-century manor house near Dartmoor National Park
-  price: 152
-  price-description: per room per night
-  saved: 48
-  expires: 2020/01/28
-  image: https://secretescapes-web.imgix.net/hotels/110/2a4d2246_c8bf_45d4_8fbd_54ccbe5b5fad.jpg?auto=format,compress
-  link: https://www.secretescapes.com/lewtrenchard-manor-okehampton-devon/sale-hotel
 
-- title: Barnett Hill Hotel
-  location: Guildford, Surrey
-  description: Elegant country house in the Surrey Hills
-  price: 142
-  price-description: per room per night
-  saved: 42
-  expires: 2020/02/04
-  image: https://secretescapes-web.imgix.net/hotels/58/161fed12_fda9_41c7_ae5d_7963d2a490f9.jpg?auto=format,compress
-  link: https://www.secretescapes.com/barnett-hill-hotel-surrey/sale-hotel
+################################################################################
+  # External offers
+    # these offers will be live when we dont have them on SE, keep the details
+    # here and can comment them out when they are needed
+################################################################################
 
-- title: Llangoed Hall
-  location: Wye Valley, Wales
-  description: R&R at an award-winning Welsh retreat
-  price: 101
-  price-description: per room per night
-  saved: 53
-  expires: 2020/01/28
-  image: https://secretescapes-web.imgix.net/sales/20973/c6537d7b_2307_443b_bb6a_556694d10c4e.jpg?auto=format,compress
-  link: https://www.secretescapes.com/llangoed-hall-wye-valley-wales/sale
+- type: external
+  id: low-wood-bay-resort-spa
+  title: Low wood Bay resort & spa
+  location: Lake Windermere, Lake District, Cumbria
+  description: Nestled on the shores of Lake Windermere, in the heart of the National Park, with Wainwrights walks a stone’s throw away and the walkers’ town of Ambleside a mile away, Low Wood Bay is the perfect base for relaxing and exploring the Lakes.
+  link: https://englishlakes.co.uk/low-wood-bay/
 
-- title: King's Head Inn
-  location: Gower Peninsula, Wales
-  description: Historic, Welsh inn by the beach on the Gower Peninsula
-  price: 71
-  price-description: per room per night
-  saved: 50
-  expires: 2020/01/28
-  image: https://secretescapes-web.imgix.net/sales/43619/61674174_8c29_43e3_ab46_a4773143bbaf.jpg?auto=format,compress
-  link: https://www.secretescapes.com/kings-head-inn-gower-peninsula-wales/sale
+- type: external
+  id: seaham-hall
+  title: Seaham Hall
+  location: Seaham, County Durham
+  description: Seaham Hall is one of the most luxurious spa hotels in County Durham. Situated amidst 37 acres of beautiful landscaped gardens in a striking cliff top location, this immaculately restored Georgian country house fuses contemporary luxury with classical elegance to create a truly unforgettable five star experience.
+  link: https://www.seaham-hall.co.uk/
+
+- type: external
+  id: cowley-manor-c-side-spa
+  title: Cowley Manor & C-Side Spa
+  location: Cheltenham, Cotswolds
+  description: With a grand Italianate exterior and bold iconic interiors, this is the perfect choice for couples, families, and groups alike. Featuring 30 bedrooms, a multi award-winning spa including heated indoor & outdoor pools, locally sourced food, and 55 acres of Grade II listed gardens, Cowley Manor is the perfect place for a luxury getaway in the Cotswolds
+  link: https://www.cowleymanor.com/
+
+- type: external
+  id: homewood
+  title: Homewood
+  location: Bath, Somerset
+  description: Make yourself at home in our secluded country house hotel filled with luxurious touches, creative interiors and great British food, all on the doorstep of the world heritage city of Bath.
+  link: https://www.homewoodbath.co.uk/
+
+# - type: external
+#   id: the-bird
+#   title: The Bird
+#   location: Bath, Somerset
+#   description: A beautiful boutique hotel to be found in Bath Spa city centre, THE BIRD offers vibrant upscale rooms, many with views out over Bath Abbey and the Recreation Ground.
+#   link: https://www.thebirdbath.co.uk/
+
+- type: external
+  id: richmond-hill-hotel
+  title: Richmond Hill Hotel
+  location: Richmond, Greater London
+  description: Atop the idyllic Richmond Hill and only 7 miles from central London, you’ll feel a million miles away. Georgian style and comfort meet modern flourishes, in this newly refurbished design haven. The stunning panorama of Richmond Park encapsulates a timeless sense of beauty.
+  link: https://www.richmondhill-hotel.co.uk/

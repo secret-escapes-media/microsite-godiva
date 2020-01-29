@@ -8,3 +8,8 @@
 
 <!-- offers by price -->
 {% assign offers-by-price = offers | sort: 'price' %}
+
+<!-- offers by type, then price -->
+{% assign se-offers = offers | where: 'type', 'se' | sort: 'price' %}
+{% assign external-offers = offers | where: 'type', 'external' %}
+{% assign offers-by-type = se-offers | concat: external-offers %}
