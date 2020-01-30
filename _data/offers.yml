@@ -2,16 +2,16 @@
   # Secret Escapes offers
 ################################################################################
 
-- type: se
-  title: The Bird
-  location: Bath, Somerset
-  description: Award-winning Bath stay in the historic centre
-  price: 99
-  price-description: per room per night
-  saved: 44
-  expires: 2020/02/11
-  image: https://secretescapes-web.imgix.net/sales/81320/03f77314_70cb_4558_b584_19ac3743634f.jpg?auto=format,compress
-  link: https://www.secretescapes.com/the-bird-bath-somerset/sale
+# - type: se
+#   title: #
+#   location: #
+#   description: #
+#   price: #
+#   price-description: #
+#   saved: #
+#   expires: #
+#   image: #
+#   link: #
 
 
 ################################################################################
@@ -47,13 +47,6 @@
   location: Bath, Somerset
   description: Make yourself at home in our secluded country house hotel filled with luxurious touches, creative interiors and great British food, all on the doorstep of the world heritage city of Bath.
   link: https://www.homewoodbath.co.uk/
-
-# - type: external
-#   id: the-bird
-#   title: The Bird
-#   location: Bath, Somerset
-#   description: A beautiful boutique hotel to be found in Bath Spa city centre, THE BIRD offers vibrant upscale rooms, many with views out over Bath Abbey and the Recreation Ground.
-#   link: https://www.thebirdbath.co.uk/
 
 - type: external
   id: richmond-hill-hotel
