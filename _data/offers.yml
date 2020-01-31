@@ -2,17 +2,16 @@
   # Secret Escapes offers
 ################################################################################
 
-# - type: se
-#   title: #
-#   location: #
-#   description: #
-#   price: #
-#   price-description: #
-#   saved: #
-#   expires: #
-#   image: #
-#   link: #
-
+- type: se
+  title: Homewood
+  location: Near Bath, Somerset
+  description: Relax near Bath at a picturesque hotel with spa
+  price: 129
+  price-description: per room per night
+  saved: 39
+  expires: 2020/02/18
+  image: https://secretescapes-web.imgix.net/sales/101818/b0d20d02_179c_47cf_957e_e192c8aacc23.jpg?auto=format,compress
+  link: https://www.secretescapes.com/homewood-near-bath-somerset/sale
 
 ################################################################################
   # External offers
@@ -41,12 +40,12 @@
   description: With a grand Italianate exterior and bold iconic interiors, this is the perfect choice for couples, families, and groups alike. Featuring 30 bedrooms, a multi award-winning spa including heated indoor & outdoor pools, locally sourced food, and 55 acres of Grade II listed gardens, Cowley Manor is the perfect place for a luxury getaway in the Cotswolds
   link: https://www.cowleymanor.com/
 
-- type: external
-  id: homewood
-  title: Homewood
-  location: Bath, Somerset
-  description: Make yourself at home in our secluded country house hotel filled with luxurious touches, creative interiors and great British food, all on the doorstep of the world heritage city of Bath.
-  link: https://www.homewoodbath.co.uk/
+# - type: external
+#   id: homewood
+#   title: Homewood
+#   location: Bath, Somerset
+#   description: Make yourself at home in our secluded country house hotel filled with luxurious touches, creative interiors and great British food, all on the doorstep of the world heritage city of Bath.
+#   link: https://www.homewoodbath.co.uk/
 
 - type: external
   id: richmond-hill-hotel
