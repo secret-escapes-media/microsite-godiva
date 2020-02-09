@@ -7,8 +7,8 @@ nav-order: 1
 
 banner:
   content: >
-    <div class="container container--lg text--center">
-      <div class="width width--title">
+    <div class="container container--xxl">
+      <div class="width width--title width--left">
         <img src="{{site.img}}/content/title.svg" alt="{{site.title}}">
       </div>
     </div>
