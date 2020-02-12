@@ -7,6 +7,9 @@ nav: true
 nav-order: 2
 intro: Immerse yourself in a world of wonder with the finest bites of chocolate, designed to make special moments even sweeter. Make your world more wonderful with treats that promise moments of unmissable delight. Treat yourself to the handcrafted flavours of the Masterpieces Collection and discover a world of wonder...
 
+banner:
+  image: bg.jpg
+
 features:
 
   - id: masterpieces

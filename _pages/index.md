@@ -6,6 +6,7 @@ nav: true
 nav-order: 1
 
 banner:
+  image: bg_00.jpg
   content: >
     <div class="container container--xxl">
       <img class="width width--title width--left" src="{{site.img}}/content/title.svg" alt="{{site.title}}">
