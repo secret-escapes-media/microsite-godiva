@@ -8,7 +8,11 @@ nav-order: 2
 intro: Immerse yourself in a world of wonder with the finest bites of chocolate, designed to make special moments even sweeter. Make your world more wonderful with treats that promise moments of unmissable delight. Treat yourself to the handcrafted flavours of the Masterpieces Collection and discover a world of wonder...
 
 banner:
-  image: bg.jpg
+  image: bg_00.jpg
+  content: >
+    <div class="container container--xxl">
+      <img class="width width--title width--left" src="{{site.img}}/content/title.svg" alt="{{site.title}}">
+    </div>
 
 features:
 

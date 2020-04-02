@@ -2,8 +2,6 @@
 layout: default
 id: offers
 title: Offers
-nav: true
-nav-order: 1
 
 banner:
   image: bg_00.jpg
